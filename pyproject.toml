@@ -4,10 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["Sotnikov Arkadiy <cotnikoarkady@gmail.com>"]
 readme = "README.md"
-packages = [{include = "content_loader"}]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">3.9,<3.9.7 || >3.9.7,<4.0"
 streamlit = "^1.17.0"
 
 
